@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <!--Nabvar Design-->
+        <section class="navbar">
+            <h1><span>L</span>ogin</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="icons">
+            <i class='bx bx-user-circle' id="user"></i>
+        </div>
+        
+        </section>
+        <!-- logingContainer -->
+        <form action="login_process.php" class="login" method="post" id="login-form">
+            <h1>Login</h1>
+            <input type="text" placeholder="Enter your Username" id="username" name="username" required> <br/> 
+            <input type="text" placeholder="Enter your Password" id="password" name="password" required> <br/>
+            <br/>
+            <input type="submit" value="Login" class="button"> 
+            <br/> <br>
+            <div class="flex">
+                <h5>Forget your Password? <span>Click here</span></h5>
+                <h5>Don't have an account? <a href="register.html"><span>Register here</span></a></h5>
+            </div>
+            <!-- <div id="login-message"></div> this supposes to show a envalid password o user(view js)-->
+        </form>
+    </header>
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>

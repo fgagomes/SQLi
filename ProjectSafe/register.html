@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <!--Nabvar Design-->
+        <section class="navbar">
+            <h1><span>L</span>ogin</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="icons">
+                <i class='bx bx-user-circle' id="user"></i>
+            </div>
+        </section>
+        <div class="container">
+            <form action="register.php" method="post" class="login">
+                <h1>Register</h1>
+               
+                <input type="text" placeholder="Enter your Username" id="username" name="username">
+               
+                <input type="text" id="email" name="email" placeholder="Enter your Email">
+              
+                <input type="text" id="password" name="password" placeholder="Enter your Password" >
+                <button type="submit" class="button" id="Register">Register</button>
+                <div class="flex">
+                    <h5>Do you have an account? <a href="login.html"><span>Login here</span></a></h5>
+                </div>
+            </form>
+        </div>
+    </header>
+</body>
+</html>
